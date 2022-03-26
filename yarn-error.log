@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\86153\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add jest @type/jest --dev
+
+PATH: 
+  C:\Users\86153\bin;D:\Program Files (x86)\Git\mingw32\bin;D:\Program Files (x86)\Git\usr\local\bin;D:\Program Files (x86)\Git\usr\bin;D:\Program Files (x86)\Git\usr\bin;D:\Program Files (x86)\Git\mingw32\bin;D:\Program Files (x86)\Git\usr\bin;C:\Users\86153\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;D:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Yarn\bin;D:\Users\86153\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Users\86153\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\Program Files\TortoiseSVN\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\Program Files (x86)\Tencent\微信web开发者工具;D:\Program Files (x86)\Tencent\微信web开发者工具\dll;C:\Users\86153\AppData\Local\Microsoft\WindowsApps;C:\Users\86153\AppData\Roaming\npm;C:\Users\86153\AppData\Local\Yarn\bin;D:\Users\86153\AppData\Local\Programs\Microsoft VS Code Insiders\bi;.;D:\Users\86153\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\86153\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\Program Files (x86)\Git\usr\bin\vendor_perl;D:\Program Files (x86)\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@type%2fjest: Not found
+      at Request.params.callback [as _callback] (C:\Users\86153\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66140:18)
+      at Request.self.callback (C:\Users\86153\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140885:22)
+      at Request.emit (events.js:376:20)
+      at Request.<anonymous> (C:\Users\86153\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141857:10)
+      at Request.emit (events.js:376:20)
+      at IncomingMessage.<anonymous> (C:\Users\86153\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141779:12)
+      at Object.onceWrapper (events.js:482:28)
+      at IncomingMessage.emit (events.js:388:22)
+      at endReadableNT (internal/streams/readable.js:1336:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "min-vue3",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/qq449245884/min-vue3.git",
+    "author": "qq449245884 <449245884@qq.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
